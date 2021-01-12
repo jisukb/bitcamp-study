@@ -12,6 +12,8 @@ package com.eomcs.lang.ex04;
 // - C언어 스타일 
 //        데이터타입 변수명[] = new 데이터타입[개수];
 //        ex) int arr[] = new int[5];
+// 배열의 개수는 int 타입의 최대 값과 같다.
+// 즉 2147483647 개 이다.
 //
 public class Exam0510 {
   public static void main(String[] args) {
@@ -21,6 +23,9 @@ public class Exam0510 {
     // 배열 선언
     int[] arr1 = new int[5]; // OK!
     int arr2[] = new int[5]; // OK! C-style.
+
+    // 배열의 크기는 int 타입의 최대 값이다.
+    int[] arr3 = new int[2147483647];
   }
 }
 
