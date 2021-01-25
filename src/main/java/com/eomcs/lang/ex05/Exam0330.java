@@ -18,8 +18,8 @@ public class Exam0330 {
     System.out.printf("a=%b, b=%b, r=%b\n", a, b, r);
 
     a = false;
-    b = false; // true
-    r = false & (b = true);
+    b = false;
+    r = a & (b = true);
     // 계산 순서
     // r = a & (b = true)
     // r = false & (b = true)

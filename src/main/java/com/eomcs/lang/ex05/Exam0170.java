@@ -18,7 +18,7 @@ public class Exam0170 {
     //
     // => 4바이트 중에서 앞의 3바이트가 잘리고 뒤의 1바이트만 b에 저장된다.
     // 
-    System.out.println(b); // 0
+    System.out.println(b); // 3
     
     // 결론!
     // => 큰 메모리의 값을 작은 메모리에 넣으려고 형변환을 사용하기도 하는데
