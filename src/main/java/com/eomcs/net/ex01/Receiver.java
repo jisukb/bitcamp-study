@@ -28,7 +28,7 @@ public class Receiver {
 
     // 3) 소켓 객체를 통해 읽고 쓸 수 있도록 입출력 스트림을 얻는다.
     // - 연결된 클라이언트로 데이터를 보내고 받으려면 입출력 스트림을 꺼내야 한다.
-    // - 소켁이 리턴해준 입출력 스트림에 적절한 데코레이터를 붙여서 사용한다.
+    // - 소켓이 리턴해준 입출력 스트림에 적절한 데코레이터를 붙여서 사용한다.
     PrintStream out = new PrintStream(socket.getOutputStream());
     Scanner in = new Scanner(socket.getInputStream());
     System.out.println("데이터 송수신을 위한 입출력 스트림 준비!");
