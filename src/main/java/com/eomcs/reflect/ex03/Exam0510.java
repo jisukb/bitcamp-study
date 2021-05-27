@@ -4,7 +4,7 @@ package com.eomcs.reflect.ex03;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 
-public class Exam11 {
+public class Exam0510 {
   @SuppressWarnings("unchecked")
   public static void main(String[] args) throws Exception {
     Class<?> clazz = Car.class;

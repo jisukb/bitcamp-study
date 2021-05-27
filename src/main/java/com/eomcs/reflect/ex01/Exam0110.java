@@ -14,7 +14,7 @@ class A {
 }
 
 
-public class Exam01 {
+public class Exam0110 {
 
   public static void main(String[] args) throws Exception {
     // 클래스 로딩

@@ -1,9 +1,9 @@
-// 목록에 들어 있는 값의 타입을 알아내기
-package com.eomcs.reflect.ex05;
+// 클래스 정보 추출 - 컬렉션의 값 타입
+package com.eomcs.reflect.ex02;
 
 import java.util.ArrayList;
 
-public class Exam0230 {
+public class Exam0140 {
 
   public static void main(String[] args) throws Exception {
     ArrayList<Object> values = new ArrayList<>();

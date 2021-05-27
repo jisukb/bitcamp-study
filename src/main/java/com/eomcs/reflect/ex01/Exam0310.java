@@ -2,7 +2,7 @@
 package com.eomcs.reflect.ex01;
 
 
-public class Exam05 {
+public class Exam0310 {
 
   static class A {
     void m() {

@@ -21,7 +21,7 @@ class B {
 }
 
 
-public class Exam02 {
+public class Exam0120 {
 
   public static void main(String[] args) throws Exception {
     //    Class.forName("com.eomcs.reflect.ex01.B");

@@ -1,7 +1,7 @@
 // 클래스 정보 추출 - 클래스 이름 알아내기
 package com.eomcs.reflect.ex02;
 
-public class Exam01 {
+public class Exam0110 {
 
   static class A {}
 

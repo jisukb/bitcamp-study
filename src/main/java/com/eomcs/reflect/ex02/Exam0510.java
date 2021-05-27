@@ -1,7 +1,7 @@
 // 클래스 정보 추출 - 패키지 정보 알아내기
 package com.eomcs.reflect.ex02;
 
-public class Exam06 {
+public class Exam0510 {
 
   static interface A {
   }

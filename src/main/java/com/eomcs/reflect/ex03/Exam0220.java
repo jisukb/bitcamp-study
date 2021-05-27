@@ -3,7 +3,7 @@ package com.eomcs.reflect.ex03;
 
 import java.lang.reflect.Method;
 
-public class Exam04 {
+public class Exam0220 {
   public void m1() {}
 
   public void m2(String s) {}
@@ -11,7 +11,7 @@ public class Exam04 {
   public void m3(String s, int i) {}
 
   public static void main(String[] args) throws Exception {
-    Class<?> clazz = Exam04.class;
+    Class<?> clazz = Exam0220.class;
 
     // 파라미터가 없는 메서드를 찾을 때는 파라미터의 타입 정보를 넘기지 않는다.
     System.out.println(clazz.getMethod("m1").getName());

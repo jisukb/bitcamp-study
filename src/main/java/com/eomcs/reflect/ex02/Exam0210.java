@@ -1,7 +1,7 @@
 // 클래스 정보 추출 - 클래스의 수퍼 클래스 정보 알아내기
 package com.eomcs.reflect.ex02;
 
-public class Exam02 {
+public class Exam0210 {
   static class A {
   }
   static class B extends A {

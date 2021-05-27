@@ -1,10 +1,13 @@
-// 클래스 정보 추출 - 클래스의 중첩 클래스 정보 알아내기 II
+// 클래스 정보 추출 - 클래스의 중첩 클래스 정보 알아내기
 package com.eomcs.reflect.ex02;
 
-public class Exam04 {
+public class Exam0310 {
+
   static class A {
+
     static class B {
     } // static nested class
+
     class C {
     } // non-static nested class == inner class
 
@@ -19,20 +22,20 @@ public class Exam04 {
 
     public static class E {
     }
+
     public class F {
     }
-    private class G {
-    }
-    protected class H {
+
+    public interface X {
     }
   }
 
   public static void main(String[] args) throws Exception {
-    Class<?> clazz = Class.forName("com.eomcs.reflect.ex02.Exam04$A");
+    Class<?> clazz = Class.forName("com.eomcs.reflect.ex02.Exam03$A");
 
-    // 접근 범위에 상관 없이 모든 중첩 클래스 및 인터페이스 정보를 가져온다.
-    // => 메서드 안에 정의된 로컬 클래스는 대상이 아니다.
-    Class<?>[] nestedList = clazz.getDeclaredClasses();
+    // public 으로 공개된 중첩 클래스 및 인터페이스 정보를 가져온다.
+    Class<?>[] nestedList = clazz.getClasses();
+
     for (Class<?> nested : nestedList) {
       System.out.println(nested.getName());
     }

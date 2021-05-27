@@ -3,7 +3,7 @@ package com.eomcs.reflect.ex01;
 
 import java.io.File;
 
-public class Exam03 {
+public class Exam0210 {
 
   static class A {
     static int s_var = 100;
